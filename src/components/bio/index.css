@@ -1,0 +1,13 @@
+.bio-userinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bio-userinfo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}

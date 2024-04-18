@@ -53,8 +53,9 @@ const Home = () => {
             <Sider
               style={{
                 background: colorBgContainer,
+                padding: 10
               }}
-              width={200}
+              width={300}
             >
               <Bio />
             </Sider>
