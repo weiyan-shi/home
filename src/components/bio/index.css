@@ -4,10 +4,20 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 15px;
 }
 
 .bio-userinfo img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+
+.bio .ant-menu-title-content{
+  font-size: 15px;
+  display: flex;
+}
+
+.bio .bio-menu-item{
+  padding: 10ps;
 }

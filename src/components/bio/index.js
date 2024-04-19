@@ -20,29 +20,29 @@ const contactLinks = [
   {
     label: 'Singapore',
     key: 'singapore',
-    icon: <div className='icon-didian' />,
+    icon: <span className='iconfont icon-didian' />,
   },
   {
     label: 'Nanyang Technological University',
     key: 'nanyang-technological-university',
-    icon: <div className='icon-xuexiao_xuexiaoxinxi' />,
+    icon: <span className='iconfont icon-xuexiao_xuexiaoxinxi' />,
   },
   {
     label: 'yanzmics@gmail.com',
     key: 'email',
-    icon: <div className='icon-youjian' />,
+    icon: <span className='iconfont icon-youjian' />,
     href: 'mailto:yanzmics@gmail.com',
   },
   {
     label: 'Google Scholar Profile',
     key: 'google-scholar',
-    icon: <div className='icon-xueiao' />,
+    icon: <span className='iconfont icon-xuexiao' />,
     href: 'https://scholar.google.com/citations?user=IIZfJ8MAAAAJ&hl=en',
   },
   {
     label: 'ORCID Profile',
     key: 'orcid',
-    icon: <div className='icon-wangluo' />,
+    icon: <span className='iconfont icon-wangluo' />,
     href: 'https://orcid.org/0000-0002-5303-4138',
   }
 ];
@@ -65,14 +65,14 @@ const Bio = () => {
         style={{ height: '100%', borderRight: 0 }}
       >
         {contactLinks.map((link) => (
-          <Menu.Item key={link.key}>
+          <Menu.Item key={link.key} className='bio-menu-item' style={{paddingLeft:10}}>
             {link.icon}
             {link.href ? (
-              <a href={link.href} target="_blank" rel="noopener noreferrer">
+              <a href={link.href} target="_blank" rel="noopener noreferrer" style={{paddingLeft:20}}>
                 {link.label}
               </a>
             ) : (
-              <span>{link.label}</span>
+              <span style={{paddingLeft:20}}>{link.label}</span>
             )}
           </Menu.Item>
         ))}
