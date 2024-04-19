@@ -1,0 +1,12 @@
+.about {
+  margin: 20px;
+  padding: 20px;
+}
+
+
+
+.about p {
+  font-size: 18px; /* Comfortable reading size for paragraph text */
+  line-height: 1.6; /* Spacing between lines */
+  color: #555; /* Slightly lighter color for body text */
+}

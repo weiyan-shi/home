@@ -1,0 +1,26 @@
+.publications {
+  margin: 20px;
+  padding: 20px;
+}
+
+.publication {
+  /* margin-bottom: 15px; */
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.publication-title {
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.publication-details {
+  font-style: italic;
+  color: #555;
+  margin: 0 0 5px 0;
+}
+
+.publication-citation {
+  color: #333;
+  margin: 0;
+}

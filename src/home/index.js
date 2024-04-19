@@ -1,20 +1,38 @@
 import React, { useState } from 'react';
 import { Layout, Menu, theme } from 'antd';
-import {menuItems} from './config';
-import Bio from './components/bio'
-import './home.css'
+import { menuItems } from '../config';
+import { Bio, About, Publications, CV, Teaching } from '../components';
+import './index.css'
 const { Header, Content, Footer, Sider } = Layout;
 
 
 const Home = () => {
-  const [current, setCurrent] = useState('mail');
+  const [current, setCurrent] = useState('about');
+
   const onClick = (e) => {
     console.log('click ', e);
     setCurrent(e.key);
   };
+
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
+
+  const renderContent = () => {
+    switch (current) {
+      case 'about':
+        return <About />;
+      case 'publications':
+        return <Publications />;
+      case 'cv':
+        return <CV />;
+      case 'teaching':
+        return <Teaching />;
+      default:
+        return <About />;
+    }
+  };
+
 
   return (
     <div className='home'>
@@ -23,6 +41,7 @@ const Home = () => {
           style={{
             display: 'flex',
             alignItems: 'center',
+            fontSize: 20,
           }}
         >
           <div className="demo-logo" />
@@ -31,10 +50,12 @@ const Home = () => {
             selectedKeys={[current]}
             mode="horizontal"
             items={menuItems} theme="dark"
-            defaultSelectedKeys={['2']}
+            defaultSelectedKeys={['1']}
             style={{
               flex: 1,
               minWidth: 0,
+              fontSize: 18,
+              fontWeight: 'bold',
             }} />
         </Header>
         <Content
@@ -59,13 +80,11 @@ const Home = () => {
             >
               <Bio />
             </Sider>
-            <Content
-              style={{
-                padding: '0 24px',
-                minHeight: 280,
-              }}
-            >
-              Content
+            <Content style={{
+              padding: '0 24px',
+              minHeight: 280,
+            }}>
+              {renderContent()}
             </Content>
           </Layout>
         </Content>
@@ -74,7 +93,7 @@ const Home = () => {
             textAlign: 'center',
           }}
         >
-          Ant Design ©{new Date().getFullYear()} Created by Ant UED
+          Powered by React & Ant Design © {new Date().getFullYear()} Created by Ziming Yan.
         </Footer>
       </Layout>
     </div>

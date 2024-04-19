@@ -3,8 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   font-size: 15px;
+  padding-left: 18px;
 }
 
 .bio-userinfo img{
@@ -20,4 +21,8 @@
 
 .bio .bio-menu-item{
   padding: 10ps;
+}
+
+.bio h1{
+  font-size: 25px;
 }

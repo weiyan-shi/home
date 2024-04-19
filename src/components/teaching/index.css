@@ -1,0 +1,39 @@
+.teaching {
+  margin: 20px;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.category, .subcategory {
+  margin-bottom: 15px;
+  padding-left: 16px;
+}
+
+.category h1, .subcategory h2, .subcategory h3, .subcategory p {
+  margin-bottom: 4px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.category h1 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subcategory h2 {
+  font-weight: bold;
+  color: #555;
+}
+
+.subcategory h3 {
+  font-size: 17px; /* Slightly smaller than other text for hierarchy distinction */
+  color: #777;
+}
+
+.subcategory p {
+  margin-bottom: 0; /* Remove bottom margin from paragraphs if desired */
+}

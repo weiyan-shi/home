@@ -1,10 +1,4 @@
 import { Layout, Menu, Avatar } from 'antd';
-import {
-  UserOutlined,
-  LaptopOutlined,
-  NotificationOutlined,
-
-} from '@ant-design/icons';
 import './index.css'
 import '../../iconfont/iconfont.css';
 import avatar from './avatar.jpg';
@@ -50,7 +44,7 @@ const contactLinks = [
 const UserInfo = () => (
   <div className='bio-userinfo'>
     <img className='bio-userinfo-ava' src={avatar} alt='' />
-    <h3>{userInfo.name}</h3>
+    <h1>{userInfo.name}</h1>
     <p>{userInfo.bio}</p>
   </div>
 );

@@ -1,0 +1,24 @@
+.cv {
+  margin: 20px;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.experience, .education {
+  margin-bottom: 15px;
+  padding-left: 16px;
+}
+
+.experience p, .education p {
+  margin-bottom: 4px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.experience p:first-child, .education p:first-child {
+  font-weight: bold;
+  color: #555;
+}
