@@ -1,24 +1,35 @@
 .cv {
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
 }
 
-.section {
-  margin-bottom: 30px;
+.cv h1 {
+  margin-top: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
 }
 
-.experience, .education {
-  margin-bottom: 15px;
-  padding-left: 16px;
+.cv .section {
+  background-color: #f9f9f9; /* Example color */
+  padding: 15px;
+  margin-bottom: 20px;
 }
 
-.experience p, .education p {
+
+.cv .experience, .education, .grant {
+  /* margin-bottom: 15px; */
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.cv .experience p, .education p, .grant p {
   margin-bottom: 4px;
   line-height: 1.5;
   font-size: 15px;
+  margin: 0;
 }
 
-.experience p:first-child, .education p:first-child {
+.cv .experience p:first-child, .education p:first-child, .grant p:first-child {
   font-weight: bold;
   color: #555;
 }

@@ -1,4 +1,4 @@
-.bio-userinfo{
+.bio .bio-userinfo{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,7 +8,7 @@
   padding-left: 18px;
 }
 
-.bio-userinfo img{
+.bio .bio-userinfo img{
     height: 100px;
     width: 100px;
     border-radius: 50%;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Layout, Menu, theme } from 'antd';
 import { menuItems } from '../config';
-import { Bio, About, Publications, CV, Teaching } from '../components';
+import { Bio, About, Publications, CV, Teaching, Other } from '../components';
 import './index.css'
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -28,6 +28,8 @@ const Home = () => {
         return <CV />;
       case 'teaching':
         return <Teaching />;
+      case 'other':
+        return <Other />;
       default:
         return <About />;
     }

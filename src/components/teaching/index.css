@@ -1,39 +1,39 @@
 .teaching {
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px; /* Reduced padding for a more compact look */
 }
 
-.section {
-  margin-bottom: 30px;
+.teaching .section {
+  background-color: #f9f9f9; /* Gray background for each section */
+  padding: 15px; /* Padding inside sections */
+  margin-bottom: 15px; /* Less space between sections */
+  border-radius: 5px; /* Optional: Adds rounded corners to the sections */
 }
 
-.category, .subcategory {
-  margin-bottom: 15px;
-  padding-left: 16px;
+.teaching h1 {
+  font-size: 2em; /* Larger font size for h1 elements like in .other */
+  margin-top: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
 }
 
-.category h1, .subcategory h2, .subcategory h3, .subcategory p {
-  margin-bottom: 4px;
-  line-height: 1.5;
-  font-size: 15px;
+.teaching h2 {
+  margin-top: 10px; /* Reduced space above h2 for a more compact layout */
+  padding-top: 10px; /* Space above h2 when following another element */
 }
 
-.category h1 {
+.teaching .subcategory h3 {
   font-weight: bold;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.subcategory h2 {
-  font-weight: bold;
-  color: #555;
-}
-
-.subcategory h3 {
-  font-size: 17px; /* Slightly smaller than other text for hierarchy distinction */
+  font-size: 17px; /* Making sure h3 remains larger than p */
   color: #777;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
-.subcategory p {
-  margin-bottom: 0; /* Remove bottom margin from paragraphs if desired */
+.teaching .subcategory p {
+  margin-bottom: 4px;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-left: 20px;
 }

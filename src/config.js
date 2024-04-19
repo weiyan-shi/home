@@ -16,11 +16,7 @@ export const menuItems = [
     key: 'teaching',
   },
   {
-    label: 'Service',
-    key: 'service',
-  },
-  {
-    label: 'Experience',
-    key: 'experience',
+    label: 'Other',
+    key: 'other',
   }
 ];
