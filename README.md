@@ -1,6 +1,6 @@
 # Weiyan Shi's Homepage
 
-Welcome to the repository for Yan Ziming's personal homepage. Below are the instructions on how to set up the project for development and deployment.
+Welcome to the repository for Weiyan Shi's personal homepage. Below are the instructions on how to set up the project for development and deployment.
 
 ## Prerequisites
 
