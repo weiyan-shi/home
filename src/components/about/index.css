@@ -1,6 +1,6 @@
 .about {
-  margin: 10px;
-  padding: 10px;
+  /* margin: 10px;
+  padding: 10px; */
 }
 
 .about h1 {
@@ -9,14 +9,17 @@
   border-bottom: 1px solid #ccc;
 }
 
-.about p {
-  font-size: 18px; /* Comfortable reading size for paragraph text */
-  line-height: 1.6; /* Spacing between lines */
-  color: #555; /* Slightly lighter color for body text */
+.about p{
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.about p:first-child {
+
+  margin: 0 0 10px 0;
 }
 
 .about .container{
-  background-color: #f9f9f9; /* Example color */
-  padding: 15px;
-  margin-bottom: 20px;
+  background-color: #f9f9f9; 
+  padding: 0 15px;
 }

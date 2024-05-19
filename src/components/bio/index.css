@@ -14,13 +14,17 @@
     border-radius: 50%;
 }
 
+.bio .bio-userinfo h1{
+  margin: 10px 0 0 0;
+}
+
 .bio .ant-menu-title-content{
   font-size: 15px;
   display: flex;
 }
 
 .bio .bio-menu-item{
-  padding: 10ps;
+  padding: 10px;
 }
 
 .bio h1{

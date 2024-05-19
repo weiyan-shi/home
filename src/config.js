@@ -7,16 +7,16 @@ export const menuItems = [
     label: 'CV',
     key: 'cv',
   },
-  {
-    label: 'Publications',
-    key: 'publications',
-  },
-  {
-    label: 'Teaching',
-    key: 'teaching',
-  },
-  {
-    label: 'Other',
-    key: 'other',
-  }
+  // {
+  //   label: 'Publications',
+  //   key: 'publications',
+  // },
+  // {
+  //   label: 'Teaching',
+  //   key: 'teaching',
+  // },
+  // {
+  //   label: 'Other',
+  //   key: 'other',
+  // }
 ];

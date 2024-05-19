@@ -6,38 +6,45 @@ import avatar from './avatar.jpg';
 const { Content, Sider } = Layout;
 
 const userInfo = {
-  name: 'Yan Ziming',
-  bio: 'SP Group NTU Presidential Postdoctoral Fellow. Area of interests include operation, control, and realibility of power systems, with applications of data-analytics and advanced machine learning techniques.'
+  name: 'Weiyan Shi',
+  bio: 'Incoming PhD Student@SUTD'
 }
 
 const contactLinks = [
   {
     label: 'Singapore',
-    key: 'singapore',
+    key: 'location',
     icon: <span className='iconfont icon-didian' />,
   },
+  // {
+  //   label: 'Singapore University of Technology and Design',
+  //   key: 'university',
+  //   icon: <span className='iconfont icon-xuexiao_xuexiaoxinxi' />,
+  //   href: 'https://www.sutd.edu.sg'
+  // },
   {
-    label: 'Nanyang Technological University',
-    key: 'nanyang-technological-university',
-    icon: <span className='iconfont icon-xuexiao_xuexiaoxinxi' />,
-  },
-  {
-    label: 'yanzmics@gmail.com',
+    label: 'Email',
     key: 'email',
     icon: <span className='iconfont icon-youjian' />,
-    href: 'mailto:yanzmics@gmail.com',
+    href: 'mailto:weiyanshi6@gmail.com',
   },
   {
-    label: 'Google Scholar Profile',
+    label: 'Google Scholar',
     key: 'google-scholar',
     icon: <span className='iconfont icon-xuexiao' />,
-    href: 'https://scholar.google.com/citations?user=IIZfJ8MAAAAJ&hl=en',
+    href: 'https://scholar.google.com/citations?user=ywi8b0EAAAAJ&hl=en',
   },
   {
-    label: 'ORCID Profile',
+    label: 'ORCID',
     key: 'orcid',
     icon: <span className='iconfont icon-wangluo' />,
-    href: 'https://orcid.org/0000-0002-5303-4138',
+    href: 'https://orcid.org/0009-0001-6035-9678',
+  },
+  {
+    label: 'GitHub',
+    key: 'github',
+    icon: <span className='iconfont icon-github' />,
+    href: 'https://github.com/weiyan-shi',
   }
 ];
 

@@ -22,14 +22,14 @@ const Home = () => {
     switch (current) {
       case 'about':
         return <About />;
-      case 'publications':
-        return <Publications />;
+      // case 'publications':
+      //   return <Publications />;
       case 'cv':
         return <CV />;
-      case 'teaching':
-        return <Teaching />;
-      case 'other':
-        return <Other />;
+      // case 'teaching':
+      //   return <Teaching />;
+      // case 'other':
+      //   return <Other />;
       default:
         return <About />;
     }
@@ -95,7 +95,7 @@ const Home = () => {
             textAlign: 'center',
           }}
         >
-          Powered by React & Ant Design © {new Date().getFullYear()} Created by Ziming Yan.
+          Powered by React & Ant Design © {new Date().getFullYear()} Created by Weiyan Shi.
         </Footer>
       </Layout>
     </div>

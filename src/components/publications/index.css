@@ -1,10 +1,10 @@
 .publications {
-  margin: 10px;
-  padding: 10px;
+  /* margin: 10px;
+  padding: 10px; */
 }
 
 .publications .publication {
-  padding: 0 10px;
+  /* padding: 0 10px; */
 }
 
 .publications .publication-container{
@@ -14,6 +14,7 @@
 }
 
 .publications .publication-title {
+  font-style: italic;
   font-weight: 500;
   margin: 0 0 5px 0;
 }

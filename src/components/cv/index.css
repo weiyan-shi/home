@@ -1,6 +1,6 @@
 .cv {
-  margin: 10px;
-  padding: 10px;
+  /* margin: 10px;
+  padding: 10px; */
 }
 
 .cv h1 {
@@ -11,15 +11,26 @@
 
 .cv .section {
   background-color: #f9f9f9; /* Example color */
-  padding: 15px;
+  padding: 0 15px;
   margin-bottom: 20px;
+}
+
+.cv .education .edu-title{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #555;
+}
+
+.cv .education p{
+  font-style: italic;
 }
 
 
 .cv .experience, .education, .grant {
-  /* margin-bottom: 15px; */
+  margin-bottom: 15px;
   padding-left: 0;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .cv .experience p, .education p, .grant p {
@@ -30,6 +41,11 @@
 }
 
 .cv .experience p:first-child, .education p:first-child, .grant p:first-child {
+  font-weight: bold;
+  color: #555;
+}
+
+.cv .publication-title{
   font-weight: bold;
   color: #555;
 }

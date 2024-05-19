@@ -1,143 +1,64 @@
 export const publicationList = {
-  dataDrivenOperationAndControl: [
+  masterPeriod:[
     {
-      title: "Real-Time Optimal Power Flow with Linguistic Stipulations: Integrating GPT-Agent and Deep Reinforcement Learning",
-      source: "IEEE Transactions on Power Systems, early access",
-      year: "2023",
-      citationCount: "733+",
-      extraInfo: "Homepage Popular Article in IEEE TWPRS during 2023-Now"
-    },
-    {
-      title: "Data-Driven Load Frequency Control for Stochastic Power Systems: A Deep Reinforcement Learning Method With Continuous Action Search",
-      source: "IEEE Transactions on Power Systems, vol. 34, no. 2, pp. 1653-1656",
-      year: "March 2019",
-      citationCount: "309",
-      extraInfo: "Web of Science ESI highly cited paper, Homepage Popular Article in IEEE TWPRS during 2019-2022"
-    },
-    {
-      title: "A Multi-Agent Deep Reinforcement Learning Method for Cooperative Load Frequency Control of Multi-Area Power Systems",
-      source: "IEEE Transactions on Power Systems",
-      year: "2020",
-      citationCount: "209",
-      extraInfo: "Homepage Popular Article in IEEE TWPRS during 2021-Now"
-    },
-    {
-      title: "Real-Time Optimal Power Flow: A Lagrangian based Deep Reinforcement Learning Approach",
-      source: "IEEE Transactions on Power Systems",
-      year: "2020",
-      citationCount: "125",
-    },
-    {
-      title: "A Hybrid Data-driven Method for Fast Solution of Security-Constrained Optimal Power Flow",
-      source: "IEEE Transactions on Power Systems",
-      year: "2022",
-      citationCount: "20",
-    },
-    {
-      title: "Data-driven Learning-based Economic Control of Battery Energy Storage System Considering Battery Degradation",
-      source: "IET Generation Transmission & Distribution",
-      year: "2020",
-      citationCount: "9",
-    },
-    {
-      title: "Data-driven Economic Control of Battery Energy Storage System considering Battery Degradation",
-      source: "presented at 9th ICPES",
-      year: "2019",
-      citationCount: "4",
-    },
-    {
-      title: "A Multi-Agent Deep Reinforcement Learning Based Multi-Timescale Voltage Control for Distribution System",
-      source: "5th IEEE Conference on Energy Internet and Energy System Integration",
-      year: "2021",
-      citationCount: "2",
-    },
-  ],
-  reliabilityAndPlanning: [
-    {
-      title: "Data-driven robust planning of electric vehicle charging infrastructure for urban residential car parks",
-      source: "IET Generation, Transmission & Distribution",
-      year: "2021",
-      volume: "14(26): 6545-6554",
-      citationCount: "10",
-    },
-    {
-      title: "Combining deep reinforcement learning and domain knowledge for topology optimization of power systems",
-      source: "Automation of Electric Power Systems",
-      year: "2021",
-      citationCount: "4+",
-    },
-    {
-      title: "Centrality-based Solar PV Placement Considering SAIDI under Incomplete Network Information",
-      source: "2023 IEEE International Conference on Energy Technologies for Future Grids (ETFG)",
-      year: "2023",
-      citationCount: "0",
-    },
-  ],
-  cyberSecurity: [
-    {
-      title: "A Dimensional Augmentation-Based Data-Driven Method for Detecting False Data Injection in Smart Meters",
-      source: "IEEE Transactions on Smart Grid",
-      volume: "vol. 15, no. 1, pp. 1180-1183",
-      year: "Jan. 2024",
-      citationCount: "0",
-    },
-    {
-      title: "Vulnerability Assessment of Deep Reinforcement Learning Models for Power System Topology Optimization",
-      source: "IEEE Transactions on Smart Grid",
-      year: "2021",
-      citationCount: "29",
-    },
-    {
-      title: "A Hybrid Monotonic Neural Network Approach for Multi-Area Power System Load Frequency Control against FGSM Attack",
-      source: "IEEE Transactions on Circuits and Systems II: Express Briefs",
+      title: 'Understanding the Diffraction Model in Static Multipath-Rich Environments for WiFi Sensing System Design',
+      author: 'Xuanzhi Wang, Anlan Yu, Kai Niu, Weiyan Shi, et al.',
       year: "2024",
-      citationCount: "0",
+      source: 'IEEE Transactions on Mobile Computing (TMC)',
+      type: 'Journal article',
     },
     {
-      title: "Load Frequency Control with Deep Reinforcement Learning under Adversarial Attacks",
-      source: "2023 IEEE 18th Conference on Industrial Electronics and Applications (ICIEA), Ningbo, China",
-      details: "pp. 257-262",
+      title: 'WiCross: I Can Know When You Cross Using COTS WiFi Devices',
+      author: 'Weiyan Shi, et al.',
+      source: 'Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT/Ubicomp)',
       year: "2023",
-      citationCount: "0",
-    },
-    {
-      title: "A Probabilistic Forecasting Method for Residential Load Demand based on Statistical Error Analysis",
-      source: "the 2022 IEEE Power & Energy Society (PES) General Meeting (GM)",
-      year: "2022",
-      citationCount: "1",
-    },
+      type: 'Conference poster paper',
+    }
   ]
 };
 
 
 export const workExperience = [
   {
-    period: "11/2023-present",
-    institution: "Nanyang Technological University, School of Electrical and Electronic Engineering, Singapore.",
-    details: "SP Group NTU Presidential Postdoctoral Fellow."
+    title: 'Research Assistant',
+    period: "08/2023 - present",
+    institution: "I2R, A*STAR, Singapore",
   },
   {
-    period: "07/2022-11/2023",
-    institution: "Nanyang Technological University, School of Electrical and Electronic Engineering, Singapore.",
-    details: "Research Fellow. SP Group - NTU Joint Lab Project."
+    title: 'Teaching Assistant',
+    period: "02/2023 - 06/2023",
+    institution: "Peking University, Beijing, China",
   },
   {
-    period: "12/2021-07/2022",
-    institution: "Nanyang Technological University, School of Electrical and Electronic Engineering, Singapore.",
-    details: "Student Researcher. NTU and LITE-ON Collaboration Project."
+    title: "Machine Learning Engineer Intern",
+    period: "03/2022 - 09/2022",
+    institution: "DiDi, Beijing, China",
+  },
+  {
+    title: "Software Development Engineer Intern",
+    period: "09/2020 - 09/2021",
+    institution: "Kuaishou, Beijing, China",
   }
 ];
 
 export const education = [
   {
-    period: "01/2018-07/2022",
-    institution: "Nanyang Technological University, School of Electrical and Electronic Engineering, Singapore.",
-    details: "Ph.D. CGPA: 4.58/5.00; Thesis: Data-driven Operation and Control for Power Systems with High-level Renewable Energy Resources."
+    period: "09/2024 - present",
+    institution: "Singapore University of Technology and Design",
+    school: 'Information Systems Technology and Design (ISTD)',
+    details: "PhD;"
   },
   {
-    period: "09/2013-12/2017",
-    institution: "Chongqing University, School of Electrical Engineering, Chongqing, China.",
-    details: "BSc. Integrated Grades: 92.6/100; Class President of Hongshen Honored Program."
+    period: "09/2021-06/2024",
+    institution: "Peking University",
+    school: 'School of Software & Microelectronics',
+    details: "Msc; GPA: 3.34/4"
+  },
+  {
+    period: "09/2017-06/2021",
+    institution: "Beijing Institute of Technology",
+    school: "School of Computer Science",
+    details: "BSc; GPA: 91.5/100"
   }
 ];
 
