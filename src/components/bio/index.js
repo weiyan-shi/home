@@ -1,9 +1,7 @@
-import { Layout, Menu, Avatar } from 'antd';
+import { Menu } from 'antd';
 import './index.css'
 import '../../iconfont/iconfont.css';
 import avatar from './avatar.jpg';
-
-const { Content, Sider } = Layout;
 
 const userInfo = {
   name: 'Weiyan Shi',

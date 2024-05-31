@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Layout, Menu, theme } from 'antd';
 import { menuItems } from '../config';
-import { Bio, About, Publications, CV, Teaching, Other } from '../components';
+import { Bio, About, CV} from '../components';
 import './index.css'
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -38,7 +38,7 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <Layout style={{ minHeight: '100vh' }}>
+      <Layout className='home-layout'>
         <Header
           style={{
             display: 'flex',
