@@ -64,7 +64,7 @@ const Home = () => {
         </Header>
         <Content
           style={{
-            padding: '20px 48px',
+            padding: '20px 20px',
             background: '#FFF',
             maxWidth: 600,
             margin: '20px auto 0  auto'
