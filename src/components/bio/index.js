@@ -1,19 +1,22 @@
-import { Menu } from 'antd';
+import { Menu, Card, Avatar } from 'antd';
 import './index.css'
 import '../../iconfont/iconfont.css';
 import avatar from './avatar.jpg';
 
+const { Meta } = Card;
+
+
 const userInfo = {
   name: 'Weiyan Shi',
-  bio: 'Incoming PhD Student@SUTD'
+  bio: 'Incoming PhD Student @ SUTD'
 }
 
 const contactLinks = [
-  {
-    label: 'Singapore',
-    key: 'location',
-    icon: <span className='iconfont icon-didian' />,
-  },
+  // {
+  //   label: 'Singapore',
+  //   key: 'location',
+  //   icon: <span className='iconfont icon-didian' />,
+  // },
   // {
   //   label: 'Singapore University of Technology and Design',
   //   key: 'university',
@@ -58,24 +61,38 @@ const Bio = () => {
   return (
     <div className='bio'>
       <UserInfo />
-      <Menu
+      <div className='bio-a-list'>
+      {contactLinks.map((link) => (
+          <div className='bio-a'>
+            {link.icon}
+            {link.href ? (
+              <a href={link.href} target="_blank" rel="noopener noreferrer" style={{ paddingLeft: 5 }}>
+                {link.label}
+              </a>
+            ) : (
+              <span style={{ paddingLeft: 5 }}>{link.label}</span>
+            )}
+          </div>
+        ))}
+      </div>
+      {/* <Menu
         mode="inline"
         defaultSelectedKeys={['1']}
         style={{ height: '100%', borderRight: 0 }}
       >
         {contactLinks.map((link) => (
-          <Menu.Item key={link.key} className='bio-menu-item' style={{paddingLeft:10}}>
+          <Menu.Item key={link.key} className='bio-menu-item' style={{ paddingLeft: 10 }}>
             {link.icon}
             {link.href ? (
-              <a href={link.href} target="_blank" rel="noopener noreferrer" style={{paddingLeft:20}}>
+              <a href={link.href} target="_blank" rel="noopener noreferrer" style={{ paddingLeft: 20 }}>
                 {link.label}
               </a>
             ) : (
-              <span style={{paddingLeft:20}}>{link.label}</span>
+              <span style={{ paddingLeft: 20 }}>{link.label}</span>
             )}
           </Menu.Item>
         ))}
-      </Menu>
+      </Menu> */}
     </div>
   );
 };

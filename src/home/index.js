@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Layout, Menu, theme } from 'antd';
 import { menuItems } from '../config';
-import { Bio, About, CV} from '../components';
+import { Bio, About, CV } from '../components';
 import './index.css'
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -41,12 +41,14 @@ const Home = () => {
       <Layout className='home-layout'>
         <Header
           style={{
+            position: 'sticky',
+            top: 0,
+            zIndex: 1,
+            width: '100%',
             display: 'flex',
             alignItems: 'center',
-            fontSize: 20,
           }}
         >
-          <div className="demo-logo" />
           <Menu
             onClick={onClick}
             selectedKeys={[current]}
@@ -62,37 +64,35 @@ const Home = () => {
         </Header>
         <Content
           style={{
-            padding: '0 48px',
+            padding: '20px 48px',
+            background: '#FFF',
+            maxWidth: 600,
+            margin: '20px auto 0  auto'
           }}
         >
-          <Layout
+          {/* <Layout
             style={{
               padding: '24px 0',
               margin: '40px 0',
               background: colorBgContainer,
               borderRadius: borderRadiusLG,
             }}
-          >
-            <Sider
-              style={{
-                background: colorBgContainer,
-                padding: 10
-              }}
-              width={300}
-            >
-              <Bio />
-            </Sider>
-            <Content style={{
+          > */}
+          <Bio />
+          {/* <Content style={{
               padding: '0 24px',
               minHeight: 280,
-            }}>
-              {renderContent()}
-            </Content>
-          </Layout>
+            }}> */}
+          {renderContent()}
+          {/* </Content> */}
+          {/* </Layout> */}
         </Content>
         <Footer
           style={{
             textAlign: 'center',
+            position: 'sticky',
+            top: 0,
+            zIndex: 1,
           }}
         >
           Powered by React & Ant Design © {new Date().getFullYear()} Created by Weiyan Shi.

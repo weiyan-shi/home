@@ -30,3 +30,12 @@
 .bio h1{
   font-size: 25px;
 }
+
+.bio .bio-a-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio{
+  margin: 10px 0;
+}
