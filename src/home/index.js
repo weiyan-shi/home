@@ -1,22 +1,18 @@
 import React, { useState } from 'react';
-import { Layout, Menu, theme } from 'antd';
+import { Layout, Menu } from 'antd';
 import { menuItems } from '../config';
 import { Bio, About, CV } from '../components';
 import './index.css'
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Footer } = Layout;
 
 
 const Home = () => {
-  const [current, setCurrent] = useState('about');
+  const [current, setCurrent] = useState('cv');
 
   const onClick = (e) => {
     console.log('click ', e);
     setCurrent(e.key);
   };
-
-  const {
-    token: { colorBgContainer, borderRadiusLG },
-  } = theme.useToken();
 
   const renderContent = () => {
     switch (current) {

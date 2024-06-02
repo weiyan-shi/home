@@ -1,5 +1,5 @@
 import { publicationList, academicActivities } from '../config'
-import './index.css'
+// import './index.css'
 
 console.log(publicationList);
 

@@ -1,9 +1,7 @@
-import { Menu, Card, Avatar } from 'antd';
 import './index.css'
 import '../../iconfont/iconfont.css';
 import avatar from './avatar.jpg';
 
-const { Meta } = Card;
 
 
 const userInfo = {

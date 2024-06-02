@@ -9,6 +9,10 @@
   border-bottom: 1px solid #ccc;
 }
 
+.cv .email{
+  color: #1677ff;
+}
+
 .cv .section {
   background-color: #f9f9f9; /* Example color */
   padding: 0 15px;
@@ -18,34 +22,21 @@
 .cv .education .edu-title{
   display: flex;
   justify-content: space-between;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #555;
 }
 
-.cv .education p{
-  font-style: italic;
-}
 
-
-.cv .experience, .education, .grant {
+.cv .experience, .education, .grant, .publication {
   margin-bottom: 15px;
   padding-left: 0;
-  /* margin-top: 15px; */
 }
 
-.cv .experience p, .education p, .grant p {
-  margin-bottom: 4px;
-  line-height: 1.5;
-  font-size: 15px;
-  margin: 0;
+.cv .experience p, .education p, .grant p, .publication p {
+  margin: 0 0 4px 0;
 }
 
-.cv .experience p:first-child, .education p:first-child, .grant p:first-child {
-  font-weight: bold;
-  color: #555;
-}
-
-.cv .publication-title{
-  font-weight: bold;
+.cv .experience p:first-child, .education p:first-child, .grant p:first-child, .publication p:first-child {
+  font-weight: 500;
   color: #555;
 }

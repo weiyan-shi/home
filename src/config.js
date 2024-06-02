@@ -1,8 +1,8 @@
 export const menuItems = [
-  {
-    label: 'About',
-    key: 'about',
-  },
+  // {
+  //   label: 'About',
+  //   key: 'about',
+  // },
   {
     label: 'CV',
     key: 'cv',
